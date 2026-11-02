@@ -1,0 +1,15 @@
+N= int(input("N batao:"))
+
+for i in range(1,N+1):
+    print(i)
+
+    n = int(input("even number batao"))
+    for i in range(1,N,1):
+        if i % 2 == 0 :
+            print(i)
+
+N = int(input("odd number:"))
+
+for i in range(1,N+1):
+    if i % 2 != 0 :
+        print(i)

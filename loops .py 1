@@ -1,0 +1,4 @@
+#Range functions
+
+for i in range(26,50,1):
+
